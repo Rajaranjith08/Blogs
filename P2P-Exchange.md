@@ -100,15 +100,15 @@ Crypto traders, P2P marketplaces, and fintech platforms
 
 ## ☁️ Deployment Architecture (AWS)
 
-           Internet
-               ↓
-  AWS EC2 Server (Amazon Web Services)
-               ↓
-     Nginx (HTTPS + Reverse Proxy)
-               ↓
-      PM2 (Process Manager)
-               ↓
-        Node.js Backend
+             Internet
+                 ↓
+    AWS EC2 Server (Amazon Web Services)
+                 ↓
+      Nginx (HTTPS + Reverse Proxy)
+                 ↓
+        PM2 (Process Manager)
+                 ↓
+          Node.js Backend
 
 ### Deployment Highlights
 - Secure VPS setup using SSH keys  
